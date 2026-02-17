@@ -9,7 +9,7 @@
     2. Associates entity icons with their Dataverse entities
     3. Publishes customizations
 
-    Requires: Microsoft.PowerApps.Administration.PowerShell or pac CLI
+    Requires: PowerShell 7+ with MSAL.PS module, pac CLI recommended
 
 .PARAMETER EnvironmentUrl
     The Dataverse environment URL (e.g., https://org.crm.dynamics.com)
@@ -27,10 +27,10 @@
     Preview changes without executing them
 
 .EXAMPLE
-    .\Import-SpaarkeIcons.ps1 -EnvironmentUrl "https://orgname.crm.dynamics.com" -SolutionUniqueName "SpaarkeCore"
+    pwsh ./Import-SpaarkeIcons.ps1 -EnvironmentUrl "https://orgname.crm.dynamics.com"
 
 .EXAMPLE
-    .\Import-SpaarkeIcons.ps1 -EnvironmentUrl "https://orgname.crm.dynamics.com" -WhatIf
+    pwsh ./Import-SpaarkeIcons.ps1 -EnvironmentUrl "https://orgname.crm.dynamics.com" -WhatIf
 #>
 
 [CmdletBinding(SupportsShouldProcess)]
@@ -71,11 +71,37 @@ $manifest = Get-Content $ManifestPath -Raw | ConvertFrom-Json
 $icons = $manifest.icons
 Write-Host "Loaded $($icons.Count) icons from manifest" -ForegroundColor Green
 
-# ── Verify PAC CLI is available ────────────────────────────────────────
-$pacAvailable = $null -ne (Get-Command "pac" -ErrorAction SilentlyContinue)
-if (-not $pacAvailable) {
-    Write-Warning "PAC CLI not found. Install with: dotnet tool install --global Microsoft.PowerApps.CLI"
-    Write-Warning "Falling back to Web API mode (requires authentication)"
+# ── Acquire OAuth2 Access Token ──────────────────────────────────────
+Write-Host "`n── Authenticating via OAuth2 ──" -ForegroundColor Yellow
+
+# Ensure MSAL.PS is available
+if (-not (Get-Module -ListAvailable MSAL.PS)) {
+    Write-Host "Installing MSAL.PS module..." -ForegroundColor Yellow
+    Install-Module MSAL.PS -Scope CurrentUser -Force -AcceptLicense
+}
+Import-Module MSAL.PS
+
+# Well-known Azure AD client ID for Dataverse tooling (public client)
+$clientId = "51f81489-12ee-4a9e-aaae-a2591f45987d"
+$resource = "$EnvironmentUrl/.default"
+
+try {
+    Write-Host "Device code authentication — follow the instructions below.`n" -ForegroundColor Yellow
+    $tokenResult = Get-MsalToken -ClientId $clientId -Scopes $resource -DeviceCode
+    $accessToken = $tokenResult.AccessToken
+    Write-Host "`nAuthenticated as: $($tokenResult.Account.Username)" -ForegroundColor Green
+}
+catch {
+    Write-Error "OAuth2 authentication failed: $($_.Exception.Message)"
+    exit 1
+}
+
+# Build common headers
+$authHeaders = @{
+    "Authorization" = "Bearer $accessToken"
+    "OData-MaxVersion" = "4.0"
+    "OData-Version" = "4.0"
+    "Accept" = "application/json"
 }
 
 # ── Helper: Convert SVG to Base64 ─────────────────────────────────────
@@ -176,12 +202,6 @@ if ($WhatIf -or -not $PSCmdlet.ShouldProcess("Dataverse environment $Environment
     exit 0
 }
 
-# ── Authenticate with PAC CLI ─────────────────────────────────────────
-if ($pacAvailable) {
-    Write-Host "`n── Authenticating with PAC CLI ──" -ForegroundColor Yellow
-    pac auth create --environment $EnvironmentUrl
-}
-
 # ── Create web resources via Web API ──────────────────────────────────
 Write-Host "`n── Creating Web Resources ──" -ForegroundColor Yellow
 $apiBase = "$EnvironmentUrl/api/data/v9.2"
@@ -198,20 +218,20 @@ foreach ($item in $webResourcePayloads) {
         # Check if web resource already exists
         $filter = "name eq '$($payload.name)'"
         $existing = Invoke-RestMethod -Uri "$apiBase/webresourceset?`$filter=$filter&`$select=webresourceid" `
-            -Method Get -ContentType "application/json" -UseDefaultCredentials
+            -Method Get -Headers $authHeaders -ContentType "application/json"
 
         if ($existing.value.Count -gt 0) {
             # Update existing
             $wrId = $existing.value[0].webresourceid
             Invoke-RestMethod -Uri "$apiBase/webresourceset($wrId)" `
-                -Method Patch -Body $jsonBody -ContentType "application/json" -UseDefaultCredentials
+                -Method Patch -Body $jsonBody -Headers $authHeaders -ContentType "application/json"
             $updated++
             Write-Host "  Updated: $($icon.webResourceName)" -ForegroundColor DarkGreen
         }
         else {
             # Create new
             Invoke-RestMethod -Uri "$apiBase/webresourceset" `
-                -Method Post -Body $jsonBody -ContentType "application/json" -UseDefaultCredentials
+                -Method Post -Body $jsonBody -Headers $authHeaders -ContentType "application/json"
             $created++
             Write-Host "  Created: $($icon.webResourceName)" -ForegroundColor Green
         }
@@ -229,16 +249,20 @@ Write-Host "`n── Associating Entity Icons ──" -ForegroundColor Yellow
 
 foreach ($ep in $entityPayloads) {
     try {
-        # Update entity metadata to set icon
+        # Update entity metadata to set icon — requires @odata.type and MergeLabels header
         $entityMetadata = @{
+            "@odata.type"  = "Microsoft.Dynamics.CRM.EntityMetadata"
             IconSmallName  = $ep.WebResourceName
             IconMediumName = $ep.WebResourceName
             IconLargeName  = $ep.WebResourceName
             IconVectorName = $ep.WebResourceName
         } | ConvertTo-Json
 
+        $metadataHeaders = @{} + $authHeaders
+        $metadataHeaders["MSCRM.MergeLabels"] = "true"
+
         Invoke-RestMethod -Uri "$apiBase/EntityDefinitions(LogicalName='$($ep.EntityLogicalName)')" `
-            -Method Patch -Body $entityMetadata -ContentType "application/json" -UseDefaultCredentials
+            -Method Put -Body $entityMetadata -Headers $metadataHeaders -ContentType "application/json"
 
         Write-Host "  Associated: $($ep.EntityLogicalName) -> $($ep.IconName)" -ForegroundColor Green
     }
@@ -251,12 +275,8 @@ foreach ($ep in $entityPayloads) {
 Write-Host "`n── Publishing Customizations ──" -ForegroundColor Yellow
 
 try {
-    $publishXml = @{
-        ParameterXml = "<importexportxml><webresources><webresource>{0}</webresource></webresources></importexportxml>" -f "all"
-    } | ConvertTo-Json
-
     Invoke-RestMethod -Uri "$apiBase/PublishAllXml" `
-        -Method Post -ContentType "application/json" -UseDefaultCredentials
+        -Method Post -Headers $authHeaders -ContentType "application/json"
 
     Write-Host "Customizations published successfully" -ForegroundColor Green
 }
@@ -267,7 +287,7 @@ catch {
 
 # ── Summary ───────────────────────────────────────────────────────────
 Write-Host "`n=== Deployment Complete ===" -ForegroundColor Cyan
-Write-Host "Web Resources:    $created created, $updated updated"
+Write-Host "Web Resources:    $created created, $updated updated, $failed failed"
 Write-Host "Entity Icons:     $($entityPayloads.Count) associations"
 Write-Host "Navigation Icons: $($navIcons.Count) sitemap references (update sitemap XML manually)"
 Write-Host "`nNote: Sitemap navigation icons must be updated in the sitemap editor"
