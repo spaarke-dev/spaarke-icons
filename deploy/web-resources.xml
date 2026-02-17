@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Spaarke Icon Web Resources
+  Generated from icon-manifest.json
+  Add these entries to your solution's customizations.xml under <ImportExportXml><WebResources>
+-->
+<WebResources>
+
+  <!-- ============================================================ -->
+  <!-- Navigation Icons (15)                                        -->
+  <!-- ============================================================ -->
+
+  <!-- Home (nav-home) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/home.svg</Name>
+    <DisplayName>Home Icon</DisplayName>
+    <Description>Fluent UI icon: Home20Regular — Home page / dashboard landing</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Matters (nav-matters) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/matters.svg</Name>
+    <DisplayName>Matters Icon</DisplayName>
+    <Description>Fluent UI icon: Briefcase20Regular — Legal matters list and detail navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Projects (nav-projects) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/projects.svg</Name>
+    <DisplayName>Projects Icon</DisplayName>
+    <Description>Fluent UI icon: ClipboardTask20Regular — Projects list navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Invoices (nav-invoices) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/invoices.svg</Name>
+    <DisplayName>Invoices Icon</DisplayName>
+    <Description>Fluent UI icon: Receipt20Regular — Invoice list navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Events (nav-events) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/events.svg</Name>
+    <DisplayName>Events Icon</DisplayName>
+    <Description>Fluent UI icon: CalendarLtr20Regular — Calendar events navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Analyses (nav-analyses) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/analyses.svg</Name>
+    <DisplayName>Analyses Icon</DisplayName>
+    <Description>Fluent UI icon: DataTrending20Regular — AI analytics and reporting navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Documents (nav-documents) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/documents.svg</Name>
+    <DisplayName>Documents Icon</DisplayName>
+    <Description>Fluent UI icon: Document20Regular — Document library navigation (SPE)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Email Messages (nav-emails) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/emails.svg</Name>
+    <DisplayName>Email Messages Icon</DisplayName>
+    <Description>Fluent UI icon: Mail20Regular — Email messages navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Accounts (nav-accounts) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/accounts.svg</Name>
+    <DisplayName>Accounts Icon</DisplayName>
+    <Description>Fluent UI icon: Building20Regular — Organization / company records navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Contacts (nav-contacts) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/contacts.svg</Name>
+    <DisplayName>Contacts Icon</DisplayName>
+    <Description>Fluent UI icon: People20Regular — People / contact records navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Teams (nav-teams) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/teams.svg</Name>
+    <DisplayName>Teams Icon</DisplayName>
+    <Description>Fluent UI icon: PeopleTeam20Regular — Team management navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Clients (nav-clients) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/clients.svg</Name>
+    <DisplayName>Clients Icon</DisplayName>
+    <Description>Fluent UI icon: PersonAccounts20Regular — Client entity navigation (sprk_client)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Playbooks (nav-playbooks) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/playbooks.svg</Name>
+    <DisplayName>Playbooks Icon</DisplayName>
+    <Description>Fluent UI icon: Book20Regular — AI analysis playbook navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Scorecard (nav-scorecard) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/scorecard.svg</Name>
+    <DisplayName>Scorecard Icon</DisplayName>
+    <Description>Fluent UI icon: Gauge20Regular — KPI scorecard / performance dashboard</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Admin (nav-admin) -->
+  <WebResource>
+    <Name>sprk_/icons/nav/admin.svg</Name>
+    <DisplayName>Admin Icon</DisplayName>
+    <Description>Fluent UI icon: Wrench20Regular — Administration area navigation</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- ============================================================ -->
+  <!-- Entity Icons (33)                                            -->
+  <!-- ============================================================ -->
+
+  <!-- sprk_matter (entity-matter) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/matter.svg</Name>
+    <DisplayName>sprk_matter Icon</DisplayName>
+    <Description>Fluent UI icon: Briefcase20Regular — Legal matter record type — core entity</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_project (entity-project) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/project.svg</Name>
+    <DisplayName>sprk_project Icon</DisplayName>
+    <Description>Fluent UI icon: ClipboardTask20Regular — Project record type</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_invoice (entity-invoice) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/invoice.svg</Name>
+    <DisplayName>sprk_invoice Icon</DisplayName>
+    <Description>Fluent UI icon: Receipt20Regular — Invoice / billing record type</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_document (entity-document) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/document.svg</Name>
+    <DisplayName>sprk_document Icon</DisplayName>
+    <Description>Fluent UI icon: Document20Regular — Document record type (SPE container child)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_container (entity-container) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/container.svg</Name>
+    <DisplayName>sprk_container Icon</DisplayName>
+    <Description>Fluent UI icon: Cube20Regular — SharePoint Embedded container entity</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_client (entity-client) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/client.svg</Name>
+    <DisplayName>sprk_client Icon</DisplayName>
+    <Description>Fluent UI icon: PersonAccounts20Regular — Client entity — document associations</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_kpiassessment (entity-kpiassessment) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/kpiassessment.svg</Name>
+    <DisplayName>sprk_kpiassessment Icon</DisplayName>
+    <Description>Fluent UI icon: Gauge20Regular — KPI assessment record — scorecard child</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_gridconfiguration (entity-gridconfig) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/gridconfiguration.svg</Name>
+    <DisplayName>sprk_gridconfiguration Icon</DisplayName>
+    <Description>Fluent UI icon: TableEdit20Regular — Grid configuration storage entity</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_analysisplaybook (entity-playbook) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/analysisplaybook.svg</Name>
+    <DisplayName>sprk_analysisplaybook Icon</DisplayName>
+    <Description>Fluent UI icon: Book20Regular — AI analysis playbook entity</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_playbooknode (entity-playbooknode) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/playbooknode.svg</Name>
+    <DisplayName>sprk_playbooknode Icon</DisplayName>
+    <Description>Fluent UI icon: Flow20Regular — Playbook node — step in a playbook flow</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- account (entity-account) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/account.svg</Name>
+    <DisplayName>account Icon</DisplayName>
+    <Description>Fluent UI icon: Building20Regular — Organization / company record (standard Dataverse)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- contact (entity-contact) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/contact.svg</Name>
+    <DisplayName>contact Icon</DisplayName>
+    <Description>Fluent UI icon: People20Regular — Person / contact record (standard Dataverse)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- email (entity-email) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/email.svg</Name>
+    <DisplayName>email Icon</DisplayName>
+    <Description>Fluent UI icon: Mail20Regular — Email activity record (standard Dataverse)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- task (entity-task) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/task.svg</Name>
+    <DisplayName>task Icon</DisplayName>
+    <Description>Fluent UI icon: TaskListSquareLtr20Regular — Task activity record (standard Dataverse)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- appointment (entity-appointment) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/appointment.svg</Name>
+    <DisplayName>appointment Icon</DisplayName>
+    <Description>Fluent UI icon: CalendarPerson20Regular — Appointment / meeting activity record</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- annotation (entity-note) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/annotation.svg</Name>
+    <DisplayName>annotation Icon</DisplayName>
+    <Description>Fluent UI icon: Note20Regular — Note / annotation record (standard Dataverse)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_analysisaction (entity-analysisaction) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/analysisaction.svg</Name>
+    <DisplayName>sprk_analysisaction Icon</DisplayName>
+    <Description>Fluent UI icon: FlashPlay20Regular — Analysis action — individual step in an analysis execution</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_analysisskill (entity-analysisskill) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/analysisskill.svg</Name>
+    <DisplayName>sprk_analysisskill Icon</DisplayName>
+    <Description>Fluent UI icon: Lightbulb20Regular — Analysis skill — reusable AI capability for playbooks</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_analysisknowledge (entity-analysisknowledge) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/analysisknowledge.svg</Name>
+    <DisplayName>sprk_analysisknowledge Icon</DisplayName>
+    <Description>Fluent UI icon: BookOpen20Regular — Analysis knowledge — knowledge base content for AI analysis</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_analysistool (entity-analysistool) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/analysistool.svg</Name>
+    <DisplayName>sprk_analysistool Icon</DisplayName>
+    <Description>Fluent UI icon: Toolbox20Regular — Analysis tool — tool definition for AI analysis pipelines</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_analysisoutput (entity-analysisoutput) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/analysisoutput.svg</Name>
+    <DisplayName>sprk_analysisoutput Icon</DisplayName>
+    <Description>Fluent UI icon: ClipboardDataBar20Regular — Analysis output — result record from analysis execution</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_analysisactiontype (entity-analysisactiontype) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/analysisactiontype.svg</Name>
+    <DisplayName>sprk_analysisactiontype Icon</DisplayName>
+    <Description>Fluent UI icon: Tag20Regular — Analysis action type — categorization for analysis actions</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_themeenforcer (entity-themeenforcer) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/themeenforcer.svg</Name>
+    <DisplayName>sprk_themeenforcer Icon</DisplayName>
+    <Description>Fluent UI icon: ShieldLock20Regular — Theme enforcer — enforces UI theme rules on model-driven apps</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_teamtemplate (entity-teamtemplate) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/teamtemplate.svg</Name>
+    <DisplayName>sprk_teamtemplate Icon</DisplayName>
+    <Description>Fluent UI icon: BookTemplate20Regular — Team template — predefined team structure for record assignment</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_reportingentity (entity-reportingentity) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/reportingentity.svg</Name>
+    <DisplayName>sprk_reportingentity Icon</DisplayName>
+    <Description>Fluent UI icon: Database20Regular — Reporting entity — entity configuration for reporting system</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_reportingview (entity-reportingview) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/reportingview.svg</Name>
+    <DisplayName>sprk_reportingview Icon</DisplayName>
+    <Description>Fluent UI icon: ChartMultiple20Regular — Reporting view — saved view configuration for reports</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_eventtype (entity-eventtype) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/eventtype.svg</Name>
+    <DisplayName>sprk_eventtype Icon</DisplayName>
+    <Description>Fluent UI icon: CalendarStar20Regular — Event type — categorization for calendar/business events</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_eventset (entity-eventset) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/eventset.svg</Name>
+    <DisplayName>sprk_eventset Icon</DisplayName>
+    <Description>Fluent UI icon: Collections20Regular — Event set — grouped collection of related events</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_fieldmappingprofile (entity-fieldmappingprofile) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/fieldmappingprofile.svg</Name>
+    <DisplayName>sprk_fieldmappingprofile Icon</DisplayName>
+    <Description>Fluent UI icon: ArrowsBidirectional20Regular — Field mapping profile — configuration for field-to-field mappings</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_fieldmappingrule (entity-fieldmappingrule) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/fieldmappingrule.svg</Name>
+    <DisplayName>sprk_fieldmappingrule Icon</DisplayName>
+    <Description>Fluent UI icon: BranchFork20Regular — Field mapping rule — individual rule within a mapping profile</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_recordtype (entity-recordtype) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/recordtype.svg</Name>
+    <DisplayName>sprk_recordtype Icon</DisplayName>
+    <Description>Fluent UI icon: DocumentBulletList20Regular — Record type — entity type classification for dynamic forms</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_chartdefinition (entity-chartdefinition) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/chartdefinition.svg</Name>
+    <DisplayName>sprk_chartdefinition Icon</DisplayName>
+    <Description>Fluent UI icon: DataBarVertical20Regular — Chart definition — saved chart configuration</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- sprk_charttype (entity-charttype) -->
+  <WebResource>
+    <Name>sprk_/icons/entity/charttype.svg</Name>
+    <DisplayName>sprk_charttype Icon</DisplayName>
+    <Description>Fluent UI icon: DataPie20Regular — Chart type — chart type classification (bar, pie, line, etc.)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- ============================================================ -->
+  <!-- Command/Action Icons (36)                                    -->
+  <!-- ============================================================ -->
+
+  <!-- Add / Create New (action-add) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/add.svg</Name>
+    <DisplayName>Add / Create New Icon</DisplayName>
+    <Description>Fluent UI icon: Add20Regular — Create new record action</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Edit (action-edit) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/edit.svg</Name>
+    <DisplayName>Edit Icon</DisplayName>
+    <Description>Fluent UI icon: Edit20Regular — Edit record action</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Delete (action-delete) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/delete.svg</Name>
+    <DisplayName>Delete Icon</DisplayName>
+    <Description>Fluent UI icon: Delete20Regular — Delete record action</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Save (action-save) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/save.svg</Name>
+    <DisplayName>Save Icon</DisplayName>
+    <Description>Fluent UI icon: Save20Regular — Save record action</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Close / Dismiss (action-close) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/close.svg</Name>
+    <DisplayName>Close / Dismiss Icon</DisplayName>
+    <Description>Fluent UI icon: Dismiss20Regular — Close dialog, pane, or panel</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Back / Navigate Back (action-back) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/back.svg</Name>
+    <DisplayName>Back / Navigate Back Icon</DisplayName>
+    <Description>Fluent UI icon: ArrowLeft20Regular — Navigate back to previous view</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- More Actions (action-more) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/more.svg</Name>
+    <DisplayName>More Actions Icon</DisplayName>
+    <Description>Fluent UI icon: MoreHorizontal20Regular — Overflow menu trigger</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Search (action-search) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/search.svg</Name>
+    <DisplayName>Search Icon</DisplayName>
+    <Description>Fluent UI icon: Search20Regular — Global or semantic search</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Settings (action-settings) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/settings.svg</Name>
+    <DisplayName>Settings Icon</DisplayName>
+    <Description>Fluent UI icon: Settings20Regular — Settings / configuration</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Help (action-help) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/help.svg</Name>
+    <DisplayName>Help Icon</DisplayName>
+    <Description>Fluent UI icon: QuestionCircle20Regular — Help / documentation link</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Call / Phone (action-call) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/call.svg</Name>
+    <DisplayName>Call / Phone Icon</DisplayName>
+    <Description>Fluent UI icon: Call20Regular — Phone call action on contact records</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Send Email (action-email) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/email.svg</Name>
+    <DisplayName>Send Email Icon</DisplayName>
+    <Description>Fluent UI icon: Mail20Regular — Compose/send email action</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Refresh (action-refresh) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/refresh.svg</Name>
+    <DisplayName>Refresh Icon</DisplayName>
+    <Description>Fluent UI icon: ArrowClockwise20Regular — Refresh view or data</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Open in Desktop (action-open-desktop) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/open-desktop.svg</Name>
+    <DisplayName>Open in Desktop Icon</DisplayName>
+    <Description>Fluent UI icon: DesktopArrowRight20Regular — Open document in desktop application</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Open in Web (action-open-web) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/open-web.svg</Name>
+    <DisplayName>Open in Web Icon</DisplayName>
+    <Description>Fluent UI icon: Globe20Regular — Open document in web browser</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Update Related (action-update-related) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/update-related.svg</Name>
+    <DisplayName>Update Related Icon</DisplayName>
+    <Description>Fluent UI icon: PeopleSync20Regular — Update related records button (PCF)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Filter (action-filter) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/filter.svg</Name>
+    <DisplayName>Filter Icon</DisplayName>
+    <Description>Fluent UI icon: Filter20Regular — Filter list or grid results</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Sort (action-sort) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/sort.svg</Name>
+    <DisplayName>Sort Icon</DisplayName>
+    <Description>Fluent UI icon: ArrowSort20Regular — Sort list or grid column</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Export (action-export) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/export.svg</Name>
+    <DisplayName>Export Icon</DisplayName>
+    <Description>Fluent UI icon: ArrowExportLtr20Regular — Export data to file</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Print (action-print) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/print.svg</Name>
+    <DisplayName>Print Icon</DisplayName>
+    <Description>Fluent UI icon: Print20Regular — Print record or report</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Share (action-share) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/share.svg</Name>
+    <DisplayName>Share Icon</DisplayName>
+    <Description>Fluent UI icon: Share20Regular — Share record with others</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Attach File (action-attach) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/attach.svg</Name>
+    <DisplayName>Attach File Icon</DisplayName>
+    <Description>Fluent UI icon: Attach20Regular — Attach file or document to record</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Assign (action-assign) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/assign.svg</Name>
+    <DisplayName>Assign Icon</DisplayName>
+    <Description>Fluent UI icon: PersonAdd20Regular — Assign record to user or team</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Associate (action-associate) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/associate.svg</Name>
+    <DisplayName>Associate Icon</DisplayName>
+    <Description>Fluent UI icon: Link20Regular — Associate record (document to matter/client/project)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Analyze (action-analyze) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/analyze.svg</Name>
+    <DisplayName>Analyze Icon</DisplayName>
+    <Description>Fluent UI icon: Sparkle20Regular — Run AI analysis on document or scope</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Run Playbook (action-run-playbook) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/run-playbook.svg</Name>
+    <DisplayName>Run Playbook Icon</DisplayName>
+    <Description>Fluent UI icon: Play20Regular — Execute an analysis playbook</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Theme Auto (ui-theme-auto) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/theme-auto.svg</Name>
+    <DisplayName>Theme Auto Icon</DisplayName>
+    <Description>Fluent UI icon: CircleHalfFill20Regular — Auto / system theme selection</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Theme Dark (ui-theme-dark) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/theme-dark.svg</Name>
+    <DisplayName>Theme Dark Icon</DisplayName>
+    <Description>Fluent UI icon: WeatherMoon20Regular — Dark mode theme selection</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Theme Light (ui-theme-light) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/theme-light.svg</Name>
+    <DisplayName>Theme Light Icon</DisplayName>
+    <Description>Fluent UI icon: WeatherSunny20Regular — Light mode theme selection</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Theme Menu (ui-theme-menu) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/theme-menu.svg</Name>
+    <DisplayName>Theme Menu Icon</DisplayName>
+    <Description>Fluent UI icon: PaintBrush20Regular — Theme picker menu icon</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Navigation Toggle (ui-nav-toggle) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/nav-toggle.svg</Name>
+    <DisplayName>Navigation Toggle Icon</DisplayName>
+    <Description>Fluent UI icon: Navigation20Regular — Expand/collapse navigation rail</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Analysis Builder (pcf-analysis-builder) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/analysis-builder.svg</Name>
+    <DisplayName>Analysis Builder Icon</DisplayName>
+    <Description>Fluent UI icon: BrainCircuit20Regular — AI analysis workspace builder PCF control icon</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Semantic Search (pcf-semantic-search) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/semantic-search.svg</Name>
+    <DisplayName>Semantic Search Icon</DisplayName>
+    <Description>Fluent UI icon: SearchSparkle20Regular — Semantic search PCF control icon</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Document Viewer (pcf-document-viewer) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/document-viewer.svg</Name>
+    <DisplayName>Document Viewer Icon</DisplayName>
+    <Description>Fluent UI icon: DocumentSearch20Regular — SPE document viewer PCF control icon</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Playbook Builder (pcf-playbook-builder) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/playbook-builder.svg</Name>
+    <DisplayName>Playbook Builder Icon</DisplayName>
+    <Description>Fluent UI icon: BookAdd20Regular — Playbook builder host PCF control icon</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Grid Customizer (pcf-grid-customizer) -->
+  <WebResource>
+    <Name>sprk_/icons/cmd/grid-customizer.svg</Name>
+    <DisplayName>Grid Customizer Icon</DisplayName>
+    <Description>Fluent UI icon: Grid20Regular — Grid customizer PCF control icon</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- ============================================================ -->
+  <!-- Status Icons (9)                                             -->
+  <!-- ============================================================ -->
+
+  <!-- Active (status-active) -->
+  <WebResource>
+    <Name>sprk_/icons/status/active.svg</Name>
+    <DisplayName>Active Icon</DisplayName>
+    <Description>Fluent UI icon: Circle20Regular — Active / open status indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Closed (status-closed) -->
+  <WebResource>
+    <Name>sprk_/icons/status/closed.svg</Name>
+    <DisplayName>Closed Icon</DisplayName>
+    <Description>Fluent UI icon: DismissCircle20Regular — Closed / completed status indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Pending (status-pending) -->
+  <WebResource>
+    <Name>sprk_/icons/status/pending.svg</Name>
+    <DisplayName>Pending Icon</DisplayName>
+    <Description>Fluent UI icon: Clock20Regular — Pending / waiting status indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Warning (status-warning) -->
+  <WebResource>
+    <Name>sprk_/icons/status/warning.svg</Name>
+    <DisplayName>Warning Icon</DisplayName>
+    <Description>Fluent UI icon: Warning20Regular — Warning / attention needed indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Error (status-error) -->
+  <WebResource>
+    <Name>sprk_/icons/status/error.svg</Name>
+    <DisplayName>Error Icon</DisplayName>
+    <Description>Fluent UI icon: ErrorCircle20Regular — Error / failed status indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Success (status-success) -->
+  <WebResource>
+    <Name>sprk_/icons/status/success.svg</Name>
+    <DisplayName>Success Icon</DisplayName>
+    <Description>Fluent UI icon: CheckmarkCircle20Regular — Success / completed successfully indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Overdue (status-overdue) -->
+  <WebResource>
+    <Name>sprk_/icons/status/overdue.svg</Name>
+    <DisplayName>Overdue Icon</DisplayName>
+    <Description>Fluent UI icon: ClockAlarm20Regular — Overdue / past deadline indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Draft (status-draft) -->
+  <WebResource>
+    <Name>sprk_/icons/status/draft.svg</Name>
+    <DisplayName>Draft Icon</DisplayName>
+    <Description>Fluent UI icon: Drafts20Regular — Draft / work-in-progress indicator</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+  <!-- Processing (status-processing) -->
+  <WebResource>
+    <Name>sprk_/icons/status/processing.svg</Name>
+    <DisplayName>Processing Icon</DisplayName>
+    <Description>Fluent UI icon: ArrowSync20Regular — In-progress / processing indicator (email, AI analysis)</Description>
+    <WebResourceType>11</WebResourceType><!-- SVG -->
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+    <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+    <CanBeDeleted>1</CanBeDeleted>
+    <IsHidden>0</IsHidden>
+    <IsCustomizable>1</IsCustomizable>
+  </WebResource>
+
+</WebResources>

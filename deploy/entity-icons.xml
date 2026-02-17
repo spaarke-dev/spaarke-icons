@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Spaarke Entity Icon Associations
+  Generated from icon-manifest.json
+
+  These entries define the icon for each Dataverse entity.
+  Add to customizations.xml under <ImportExportXml><Entities><Entity><EntityInfo><entity>
+
+  For custom entities (sprk_*), the ObjectTypeCode is auto-assigned.
+  For standard entities (account, contact, etc.), use the known OTCs.
+
+  Note: SVG icons use IconVectorName. For backward compatibility,
+  IconSmallName/MediumName/LargeName also point to the SVG.
+-->
+<EntityIcons>
+
+  <!-- ============================================================ -->
+  <!-- Custom Spaarke Entities (sprk_*)                             -->
+  <!-- ============================================================ -->
+
+  <!-- sprk_matter → Briefcase20Regular -->
+  <Entity>
+    <Name>sprk_matter</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/matter.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/matter.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/matter.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/matter.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_project → ClipboardTask20Regular -->
+  <Entity>
+    <Name>sprk_project</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/project.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/project.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/project.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/project.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_invoice → Receipt20Regular -->
+  <Entity>
+    <Name>sprk_invoice</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/invoice.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/invoice.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/invoice.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/invoice.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_document → Document20Regular -->
+  <Entity>
+    <Name>sprk_document</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/document.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/document.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/document.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/document.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_container → Cube20Regular -->
+  <Entity>
+    <Name>sprk_container</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/container.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/container.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/container.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/container.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_client → PersonAccounts20Regular -->
+  <Entity>
+    <Name>sprk_client</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/client.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/client.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/client.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/client.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_kpiassessment → Gauge20Regular -->
+  <Entity>
+    <Name>sprk_kpiassessment</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/kpiassessment.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/kpiassessment.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/kpiassessment.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/kpiassessment.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_playbooknode → Flow20Regular -->
+  <Entity>
+    <Name>sprk_playbooknode</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/playbooknode.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/playbooknode.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/playbooknode.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/playbooknode.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_recordtype → DocumentBulletList20Regular -->
+  <Entity>
+    <Name>sprk_recordtype</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/recordtype.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/recordtype.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/recordtype.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/recordtype.svg</IconVectorName>
+  </Entity>
+
+  <!-- ============================================================ -->
+  <!-- Standard Dataverse Entities                                  -->
+  <!-- ============================================================ -->
+
+  <!-- account → Building20Regular -->
+  <Entity>
+    <Name>account</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/account.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/account.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/account.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/account.svg</IconVectorName>
+  </Entity>
+
+  <!-- contact → People20Regular -->
+  <Entity>
+    <Name>contact</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/contact.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/contact.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/contact.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/contact.svg</IconVectorName>
+  </Entity>
+
+  <!-- email → Mail20Regular -->
+  <Entity>
+    <Name>email</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/email.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/email.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/email.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/email.svg</IconVectorName>
+  </Entity>
+
+  <!-- task → TaskListSquareLtr20Regular -->
+  <Entity>
+    <Name>task</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/task.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/task.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/task.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/task.svg</IconVectorName>
+  </Entity>
+
+  <!-- appointment → CalendarPerson20Regular -->
+  <Entity>
+    <Name>appointment</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/appointment.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/appointment.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/appointment.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/appointment.svg</IconVectorName>
+  </Entity>
+
+  <!-- annotation → Note20Regular -->
+  <Entity>
+    <Name>annotation</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/annotation.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/annotation.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/annotation.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/annotation.svg</IconVectorName>
+  </Entity>
+
+  <!-- ============================================================ -->
+  <!-- Analysis Entities                                            -->
+  <!-- ============================================================ -->
+
+  <!-- sprk_analysisplaybook → Book20Regular -->
+  <Entity>
+    <Name>sprk_analysisplaybook</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/analysisplaybook.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/analysisplaybook.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/analysisplaybook.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/analysisplaybook.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_analysisaction → FlashPlay20Regular -->
+  <Entity>
+    <Name>sprk_analysisaction</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/analysisaction.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/analysisaction.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/analysisaction.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/analysisaction.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_analysisactiontype → Tag20Regular -->
+  <Entity>
+    <Name>sprk_analysisactiontype</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/analysisactiontype.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/analysisactiontype.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/analysisactiontype.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/analysisactiontype.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_analysisskill → Lightbulb20Regular -->
+  <Entity>
+    <Name>sprk_analysisskill</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/analysisskill.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/analysisskill.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/analysisskill.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/analysisskill.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_analysisknowledge → BookOpen20Regular -->
+  <Entity>
+    <Name>sprk_analysisknowledge</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/analysisknowledge.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/analysisknowledge.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/analysisknowledge.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/analysisknowledge.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_analysistool → Toolbox20Regular -->
+  <Entity>
+    <Name>sprk_analysistool</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/analysistool.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/analysistool.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/analysistool.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/analysistool.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_analysisoutput → ClipboardDataBar20Regular -->
+  <Entity>
+    <Name>sprk_analysisoutput</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/analysisoutput.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/analysisoutput.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/analysisoutput.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/analysisoutput.svg</IconVectorName>
+  </Entity>
+
+  <!-- ============================================================ -->
+  <!-- Configuration Entities                                       -->
+  <!-- ============================================================ -->
+
+  <!-- sprk_gridconfiguration → TableEdit20Regular -->
+  <Entity>
+    <Name>sprk_gridconfiguration</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/gridconfiguration.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/gridconfiguration.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/gridconfiguration.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/gridconfiguration.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_themeenforcer → ShieldLock20Regular -->
+  <Entity>
+    <Name>sprk_themeenforcer</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/themeenforcer.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/themeenforcer.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/themeenforcer.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/themeenforcer.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_teamtemplate → BookTemplate20Regular -->
+  <Entity>
+    <Name>sprk_teamtemplate</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/teamtemplate.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/teamtemplate.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/teamtemplate.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/teamtemplate.svg</IconVectorName>
+  </Entity>
+
+  <!-- ============================================================ -->
+  <!-- Event Entities                                               -->
+  <!-- ============================================================ -->
+
+  <!-- sprk_eventtype → CalendarStar20Regular -->
+  <Entity>
+    <Name>sprk_eventtype</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/eventtype.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/eventtype.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/eventtype.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/eventtype.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_eventset → Collections20Regular -->
+  <Entity>
+    <Name>sprk_eventset</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/eventset.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/eventset.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/eventset.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/eventset.svg</IconVectorName>
+  </Entity>
+
+  <!-- ============================================================ -->
+  <!-- Field Mapping Entities                                       -->
+  <!-- ============================================================ -->
+
+  <!-- sprk_fieldmappingprofile → ArrowsBidirectional20Regular -->
+  <Entity>
+    <Name>sprk_fieldmappingprofile</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/fieldmappingprofile.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/fieldmappingprofile.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/fieldmappingprofile.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/fieldmappingprofile.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_fieldmappingrule → BranchFork20Regular -->
+  <Entity>
+    <Name>sprk_fieldmappingrule</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/fieldmappingrule.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/fieldmappingrule.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/fieldmappingrule.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/fieldmappingrule.svg</IconVectorName>
+  </Entity>
+
+  <!-- ============================================================ -->
+  <!-- Visuals Entities                                             -->
+  <!-- ============================================================ -->
+
+  <!-- sprk_reportingentity → Database20Regular -->
+  <Entity>
+    <Name>sprk_reportingentity</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/reportingentity.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/reportingentity.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/reportingentity.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/reportingentity.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_reportingview → ChartMultiple20Regular -->
+  <Entity>
+    <Name>sprk_reportingview</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/reportingview.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/reportingview.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/reportingview.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/reportingview.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_chartdefinition → DataBarVertical20Regular -->
+  <Entity>
+    <Name>sprk_chartdefinition</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/chartdefinition.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/chartdefinition.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/chartdefinition.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/chartdefinition.svg</IconVectorName>
+  </Entity>
+
+  <!-- sprk_charttype → DataPie20Regular -->
+  <Entity>
+    <Name>sprk_charttype</Name>
+    <ObjectTypeCode><!-- assigned by Dataverse --></ObjectTypeCode>
+    <IconSmallName>sprk_/icons/entity/charttype.svg</IconSmallName>
+    <IconMediumName>sprk_/icons/entity/charttype.svg</IconMediumName>
+    <IconLargeName>sprk_/icons/entity/charttype.svg</IconLargeName>
+    <IconVectorName>sprk_/icons/entity/charttype.svg</IconVectorName>
+  </Entity>
+
+</EntityIcons>

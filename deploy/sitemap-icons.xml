@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Spaarke Sitemap Navigation Icon References
+  Generated from icon-manifest.json
+
+  Use these SubArea definitions in your sitemap XML.
+  Each SubArea's Icon attribute references the web resource by name.
+
+  Place inside: <SiteMap><Area><Group><SubArea .../>
+-->
+<SitemapIcons>
+
+  <SubArea Id="nav-home" Entity="" Title="Home" Icon="$webresource:sprk_/icons/nav/home.svg" ResourceId="SitemapDesigner.NewHome" />
+  <SubArea Id="nav-matters" Entity="" Title="Matters" Icon="$webresource:sprk_/icons/nav/matters.svg" ResourceId="SitemapDesigner.NewMatters" />
+  <SubArea Id="nav-projects" Entity="" Title="Projects" Icon="$webresource:sprk_/icons/nav/projects.svg" ResourceId="SitemapDesigner.NewProjects" />
+  <SubArea Id="nav-invoices" Entity="" Title="Invoices" Icon="$webresource:sprk_/icons/nav/invoices.svg" ResourceId="SitemapDesigner.NewInvoices" />
+  <SubArea Id="nav-events" Entity="" Title="Events" Icon="$webresource:sprk_/icons/nav/events.svg" ResourceId="SitemapDesigner.NewEvents" />
+  <SubArea Id="nav-analyses" Entity="" Title="Analyses" Icon="$webresource:sprk_/icons/nav/analyses.svg" ResourceId="SitemapDesigner.NewAnalyses" />
+  <SubArea Id="nav-documents" Entity="" Title="Documents" Icon="$webresource:sprk_/icons/nav/documents.svg" ResourceId="SitemapDesigner.NewDocuments" />
+  <SubArea Id="nav-emails" Entity="" Title="Email Messages" Icon="$webresource:sprk_/icons/nav/emails.svg" ResourceId="SitemapDesigner.NewEmailMessages" />
+  <SubArea Id="nav-accounts" Entity="" Title="Accounts" Icon="$webresource:sprk_/icons/nav/accounts.svg" ResourceId="SitemapDesigner.NewAccounts" />
+  <SubArea Id="nav-contacts" Entity="" Title="Contacts" Icon="$webresource:sprk_/icons/nav/contacts.svg" ResourceId="SitemapDesigner.NewContacts" />
+  <SubArea Id="nav-teams" Entity="" Title="Teams" Icon="$webresource:sprk_/icons/nav/teams.svg" ResourceId="SitemapDesigner.NewTeams" />
+  <SubArea Id="nav-clients" Entity="" Title="Clients" Icon="$webresource:sprk_/icons/nav/clients.svg" ResourceId="SitemapDesigner.NewClients" />
+  <SubArea Id="nav-playbooks" Entity="" Title="Playbooks" Icon="$webresource:sprk_/icons/nav/playbooks.svg" ResourceId="SitemapDesigner.NewPlaybooks" />
+  <SubArea Id="nav-scorecard" Entity="" Title="Scorecard" Icon="$webresource:sprk_/icons/nav/scorecard.svg" ResourceId="SitemapDesigner.NewScorecard" />
+  <SubArea Id="nav-admin" Entity="" Title="Admin" Icon="$webresource:sprk_/icons/nav/admin.svg" ResourceId="SitemapDesigner.NewAdmin" />
+
+</SitemapIcons>
