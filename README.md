@@ -6,9 +6,9 @@ Canonical icon library for all Spaarke applications. All icons are sourced from 
 
 ```
 icons/
-  nav/        Navigation / sitemap icons (16 icons)
-  entity/     Dataverse entity record type icons (27 icons)
-  cmd/        Command bar, toolbar, and UI chrome icons (41 icons)
+  nav/        Navigation / sitemap icons (15 icons)
+  entity/     Dataverse entity record type icons (33 icons)
+  cmd/        Command bar, toolbar, and UI chrome icons (36 icons)
   status/     Status indicator icons (9 icons)
 ```
 
@@ -50,18 +50,42 @@ The Spaarke UX prototype (`spaarke-prototype`) maintains a copy of these icons u
 | Source | Fluent UI System Icons |
 | Color | Inherits from context (currentColor) |
 
-## Manifest
+## Manifest (v2.0.0)
 
-`icon-manifest.json` contains the complete machine-readable inventory with:
+`icon-manifest.json` is the **single source of truth** for all icon metadata. It contains:
 - Fluent UI component names (for React imports)
 - Fluent UI SVG filenames (for MCP/CDN lookup)
 - Dataverse web resource paths
 - Entity logical names
 - Usage type classification
+- **Status** — lifecycle state (Draft, Approved, Deployed, Rejected)
+
+The manifest is consumed by:
+- The **Icon Manager** prototype app (reads at build time, persists status changes to localStorage)
+- The **PowerShell deployment script** (`deploy/Import-SpaarkeIcons.ps1`)
+
+## Deployment
+
+Deploy icons to a Dataverse environment using the PowerShell script:
+
+```bash
+# Preview (no changes)
+pwsh deploy/Import-SpaarkeIcons.ps1 -EnvironmentUrl "https://orgname.crm.dynamics.com" -WhatIf
+
+# Execute
+pwsh deploy/Import-SpaarkeIcons.ps1 -EnvironmentUrl "https://orgname.crm.dynamics.com"
+```
+
+**Requirements:** PowerShell 7+, MSAL.PS module (auto-installed). Uses OAuth2 device code flow for authentication.
+
+See `spaarke-prototype/projects/spaarke-navigation-icons/GUIDE.md` for the complete deployment walkthrough.
 
 ## Updating Icons
 
 1. Use the **Spaarke Icon Manager** experiment in the prototype to search, select, and approve icons
 2. Export approved icons and copy SVGs to this repository
-3. Update `icon-manifest.json` with new entries
-4. Commit and push to make available across all applications
+3. In the Icon Manager Export tab, click **Download Manifest** to get the updated `icon-manifest.json` with current statuses
+4. Copy the downloaded manifest here, replacing the existing file
+5. Commit and push to make available across all applications
+
+For detailed instructions on adding new icons, managing the lifecycle, and using Claude Code to orchestrate the process, see the **[Complete Guide](../spaarke-prototype/projects/spaarke-navigation-icons/GUIDE.md)**.
