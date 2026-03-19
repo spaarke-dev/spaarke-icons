@@ -5,12 +5,13 @@
   "source": "FluentUI Icons (https://github.com/microsoft/fluentui-system-icons)",
   "standardSize": 20,
   "standardStyle": "Regular",
-  "totalIcons": 93,
+  "totalIcons": 102,
   "categories": {
-    "navigation": { "count": 15, "directory": "icons/nav/" },
-    "entity": { "count": 33, "directory": "icons/entity/" },
-    "command": { "count": 36, "directory": "icons/cmd/" },
-    "status": { "count": 9, "directory": "icons/status/" }
+    "navigation": { "count": 16, "directory": "icons/nav/" },
+    "entity": { "count": 38, "directory": "icons/entity/" },
+    "command": { "count": 38, "directory": "icons/cmd/" },
+    "status": { "count": 9, "directory": "icons/status/" },
+    "apps": { "count": 1, "directory": "icons/apps/" }
   },
   "icons": [
     {
@@ -1022,6 +1023,30 @@
       "entityLogicalName": null
     },
     {
+      "id": "action-graph-view",
+      "name": "Graph View",
+      "category": "Action",
+      "description": "Semantic search graph view — interconnected document nodes",
+      "fluentComponent": "Connected20Regular",
+      "fluentSvgName": "ic_fluent_connected_20_regular.svg",
+      "localPath": "icons/cmd/graph-view.svg",
+      "webResourceName": "sprk_/icons/cmd/graph-view.svg",
+      "usageType": "command",
+      "entityLogicalName": null
+    },
+    {
+      "id": "action-table-view",
+      "name": "Table View",
+      "category": "Action",
+      "description": "Dataset grid table view — tabular data display",
+      "fluentComponent": "Table20Regular",
+      "fluentSvgName": "ic_fluent_table_20_regular.svg",
+      "localPath": "icons/cmd/table-view.svg",
+      "webResourceName": "sprk_/icons/cmd/table-view.svg",
+      "usageType": "command",
+      "entityLogicalName": null
+    },
+    {
       "id": "status-active",
       "name": "Active",
       "category": "Status",
@@ -1127,6 +1152,90 @@
       "localPath": "icons/status/processing.svg",
       "webResourceName": "sprk_/icons/status/processing.svg",
       "usageType": "status",
+      "entityLogicalName": null
+    },
+    {
+      "id": "nav-workspace",
+      "name": "Workspace",
+      "category": "Navigation",
+      "description": "Workspace dashboard — kanban grid layout",
+      "fluentComponent": "GridKanban20Regular",
+      "fluentSvgName": "ic_fluent_grid_kanban_20_regular.svg",
+      "localPath": "icons/nav/workspace.svg",
+      "webResourceName": "sprk_/icons/nav/workspace.svg",
+      "usageType": "navigation",
+      "entityLogicalName": null
+    },
+    {
+      "id": "entity-communication",
+      "name": "sprk_communication",
+      "category": "Entity",
+      "description": "Communication record — email activity entity",
+      "fluentComponent": "Mail20Regular",
+      "fluentSvgName": "ic_fluent_mail_20_regular.svg",
+      "localPath": "icons/entity/communication.svg",
+      "webResourceName": "sprk_/icons/entity/communication.svg",
+      "usageType": "entity",
+      "entityLogicalName": "sprk_communication"
+    },
+    {
+      "id": "entity-workassignment",
+      "name": "sprk_workassignment",
+      "category": "Entity",
+      "description": "Work assignment — assign work to user or team",
+      "fluentComponent": "PersonArrowRight20Regular",
+      "fluentSvgName": "ic_fluent_person_arrow_right_20_regular.svg",
+      "localPath": "icons/entity/workassignment.svg",
+      "webResourceName": "sprk_/icons/entity/workassignment.svg",
+      "usageType": "entity",
+      "entityLogicalName": "sprk_workassignment"
+    },
+    {
+      "id": "entity-eventtodo",
+      "name": "sprk_eventtodo",
+      "category": "Entity",
+      "description": "Event to do — task checklist item from Microsoft To Do",
+      "fluentComponent": "CheckmarkSquare20Regular",
+      "fluentSvgName": "ic_fluent_checkmark_square_20_regular.svg",
+      "localPath": "icons/entity/eventtodo.svg",
+      "webResourceName": "sprk_/icons/entity/eventtodo.svg",
+      "usageType": "entity",
+      "entityLogicalName": "sprk_eventtodo"
+    },
+    {
+      "id": "entity-timekeeper",
+      "name": "sprk_timekeeper",
+      "category": "Entity",
+      "description": "Timekeeper — time tracking and billing professional",
+      "fluentComponent": "Timer20Regular",
+      "fluentSvgName": "ic_fluent_timer_20_regular.svg",
+      "localPath": "icons/entity/timekeeper.svg",
+      "webResourceName": "sprk_/icons/entity/timekeeper.svg",
+      "usageType": "entity",
+      "entityLogicalName": "sprk_timekeeper"
+    },
+    {
+      "id": "entity-organization",
+      "name": "sprk_organization",
+      "category": "Entity",
+      "description": "Organization — company or organizational entity with hierarchy",
+      "fluentComponent": "Organization20Regular",
+      "fluentSvgName": "ic_fluent_organization_20_regular.svg",
+      "localPath": "icons/entity/organization.svg",
+      "webResourceName": "sprk_/icons/entity/organization.svg",
+      "usageType": "entity",
+      "entityLogicalName": "sprk_organization"
+    },
+    {
+      "id": "app-microsoft-to-do",
+      "name": "Microsoft To Do",
+      "category": "Apps",
+      "description": "Microsoft To Do app icon — task integration branding",
+      "fluentComponent": null,
+      "fluentSvgName": null,
+      "localPath": "icons/apps/microsoft-to-do.svg",
+      "webResourceName": "sprk_/icons/apps/microsoft-to-do.svg",
+      "usageType": "apps",
       "entityLogicalName": null
     }
   ]

@@ -6,13 +6,14 @@ Canonical icon library for all Spaarke applications. All icons are sourced from 
 
 ```
 icons/
-  nav/        Navigation / sitemap icons (15 icons)
-  entity/     Dataverse entity record type icons (33 icons)
-  cmd/        Command bar, toolbar, and UI chrome icons (36 icons)
+  nav/        Navigation / sitemap icons (16 icons)
+  entity/     Dataverse entity record type icons (38 icons)
+  cmd/        Command bar, toolbar, and UI chrome icons (38 icons)
   status/     Status indicator icons (9 icons)
+  apps/       Third-party app brand icons (1 icon)
 ```
 
-**93 total icons** across 4 categories.
+**102 total icons** across 5 categories.
 
 ## Usage
 
